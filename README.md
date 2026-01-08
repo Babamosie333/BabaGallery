@@ -1,10 +1,3 @@
-**Almost perfect! Do these 3 FINAL touches, THEN deploy:**
-
-## 1️⃣ **Update README.md** (final version for GitHub)
-
-Create/replace `README.md`:
-
-```markdown
 # 🚀 BabaGallery - Professional Photo Gallery & Portfolio
 
 [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org)
@@ -13,7 +6,7 @@ Create/replace `README.md`:
 
 **A complete portfolio solution with photo gallery, project showcase, and blog management** - all built with Next.js 15, featuring dark techy design, localStorage persistence, and full CRUD operations.
 
-🌐 **[Live Demo](https://your-site.vercel.app)** | 👨‍💻 **Made by [Babamosie333](https://github.com/babamosie333)**
+🌐 **[Live Demo](https://baba-gallery.vercel.app/)** | 👨‍💻 **Made by [Babamosie333](https://github.com/babamosie333)**
 
 ---
 
