@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
+import Script from 'next/script';
 import './globals.css';
 
 export const meta:Metadata = {
@@ -14,6 +15,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script src="https://cdn.tailwindcss.com" strategy="beforeInteractive" />
+      </head>
       <body className="bg-black text-gray-100 antialiased">
         <header className="sticky top-0 z-40 border-b border-white/5 bg-gradient-to-r from-black via-slate-950/80 to-black backdrop-blur-sm">
           <nav className="max-w-6xl mx-auto flex items-center justify-between px-4 py-3">
@@ -65,13 +69,16 @@ export default function RootLayout({
                 <a href="https://github.com/babamosie333" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
                   GitHub
                 </a>
-                <a href="https://youtube.com/@DevBabaMosie" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
+                <a href="https://youtube.com/@babamosie333" target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition-colors">
                   YouTube
                 </a>
               </div>
               <div className="w-32 h-px bg-gradient-to-r from-transparent via-cyan-500/50 to-transparent"></div>
               <p className="text-sm text-gray-500">
-                Made with <span className="text-red-500">❤️</span> by <a href="https://github.com/babamosie333" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline font-semibold">Babamosie333</a>
+                Made with <span className="text-red-500">❤️</span> by{' '}
+                <a href="https://github.com/babamosie333" target="_blank" rel="noopener noreferrer" className="text-cyan-400 hover:underline font-semibold">
+                  Babamosie333
+                </a>
               </p>
               <p className="text-xs text-gray-600">BCA Student • Full-Stack Developer • Kanpur, India 🇮🇳</p>
               <p className="text-xs text-gray-700">© {new Date().getFullYear()} BabaGallery. All rights reserved.</p>
