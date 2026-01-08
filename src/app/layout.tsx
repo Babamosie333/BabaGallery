@@ -3,7 +3,7 @@ import Link from 'next/link';
 import Script from 'next/script';
 import './globals.css';
 
-export const meta:Metadata = {
+export const metadata: Metadata = {
   title: 'BabaGallery | Babamosie',
   description: 'Professional techy gallery & portfolio by Babamosie333',
 };
